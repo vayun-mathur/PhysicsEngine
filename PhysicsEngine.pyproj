@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{873cf279-4b03-4162-a9f9-3c3b4afc6fa8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>vpytest.py</StartupFile>
+    <StartupFile>solar_system.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,10 +22,16 @@
   <ItemGroup>
     <Compile Include="graph.py" />
     <Compile Include="intersections.py" />
+    <Compile Include="lib.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="physics_box.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="scene.py" />
+    <Compile Include="solar_system.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="spring.py" />
     <Compile Include="vpytest.py" />
   </ItemGroup>
@@ -39,6 +45,11 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
