@@ -9,4 +9,6 @@ class Spring:
     def update(self):
         self.line.pos = self.obj1.get_pos()
         self.line.axis = self.obj2.get_pos()-self.obj1.get_pos()
+    def get_stretched_length(self):
+        return abs(length - mag(self.obj2.get_pos()-self.obj1.get_pos()))
 

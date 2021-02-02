@@ -10,6 +10,7 @@ class PhysicsBox:
         self.prev_velocity = velocity
         self.forces = {}
         self.mass = mass
+        self.energies = {}
     def get_pos(self):
         return self.bx.pos
     def set_force(self, force_name, force_vector):

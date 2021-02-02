@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{873cf279-4b03-4162-a9f9-3c3b4afc6fa8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>solar_system.py</StartupFile>
+    <StartupFile>collision_example.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,6 +20,9 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="collision_example.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="graph.py" />
     <Compile Include="intersections.py" />
     <Compile Include="lib.py">
